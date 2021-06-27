@@ -5,6 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Animaciones</title>
+      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
       <div class="page">
@@ -13,7 +14,7 @@
          <section class="container">
             <nav class="navbar">
                <div class="navbar__content">
-                  <img src="" alt="">
+                  <img src="https://omarsav.com/pictures/lego.png" alt="logo">
                   <ul>
                      <li><a href="">EXCLUSIVOS</a></li>
                      <li><a href="">NUEVOS</a></li>
@@ -27,31 +28,29 @@
                <p>Diseña tu</p>
                <h1>Súper Héroe!</h1>
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus earum dolorum voluptatum fugit eum quo quas praesentium, minus minima assumenda error deserunt veritatis deleniti sint quaerat non voluptatem voluptatibus sequi!
-               Animi reprehenderit minus ipsa reiciendis, suscipit voluptatum cupiditate, enim molestias temporibus laudantium delectus pariatur asperiores dolorum repellendus. Optio porro cum laudantium expedita sed, consequatur dolore dicta, error veniam temporibus enim.
-               Recusandae doloribus repudiandae soluta voluptatum dignissimos cupiditate minus itaque, non nesciunt autem optio impedit suscipit ratione similique. Labore deserunt praesentium cum deleniti? Quae, ea. Qui explicabo ad dicta veniam natus!</p>
+               tio impedit suscipit ratione similique. Labore deserunt praesentium cum deleniti? Quae, ea. Qui explicabo ad dicta veniam natus!</p>
             </section>
 
             <section class="side-content">
-               <p>Superman</p>
-               <img src="" alt="">
                <div></div>
+               <p>Superman</p>
+                  <img src="https://omarsav.com/pictures/superman.png" alt="superman">
             </section>
 
-            <section>
-               <div>
-                  <img src="" alt="">
+            <section class="footer">
+               <div class = "btn-superhero">
+                  <img src="https://omarsav.com/pictures/spiderman.png" alt="spiderman">
                </div>
                
-               <div>
-                  <img src="" alt="">
+               <div class = "btn-superhero">
+                  <img src="https://omarsav.com/pictures/robin.png" alt="robin">
                </div>
                
-               <div>
-                  <img src="" alt="">
+               <div class = "btn-superhero">
+                  <img src="https://omarsav.com/pictures/batman.webp" alt="batman">
                </div>
             </section>
          </section>
-
 
          <!--Loader-->
          <section class="loader">
@@ -61,9 +60,33 @@
          </section>
 
          <!--Modal-->
-         <section>
+         <section class="modal hidden">
+            <div class="modal__container">
+               <img class="modal__container--close" src="https://img.icons8.com/ios/50/000000/multiply.png"/>
 
+               <div class="modal__container--slider">
+                  <input type="radio" name="slider-1" id="radio-1" checked>
+                  <input type="radio" name="slider-1" id="radio-2">
+                  <input type="radio" name="slider-1" id="radio-3">
+
+                  <div class="cards">
+                     <label for="radio-1" id="card-1" class="card">
+                        <img src="https://omarsav.com/pictures/spiderman-1.png" alt="spiderman1">
+                     </label>
+
+                     <label for="radio-2" id="card-2" class="card">
+                        <img src="https://omarsav.com/pictures/spiderman-2.png" alt="spiderman2">
+                     </label>
+
+                     <label for="radio-3" id="card-3" class="card">
+                        <img src="https://omarsav.com/pictures/spiderman-3.png" alt="spiderman3">
+                     </label>
+                  </div>
+               </div>
+                <button><a href="">¡Lo quiero!</a></button>
+            </div>
          </section>
       </div>
    </body>
+   <script src="js/modal.js"></script>
 </html>
